@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #9d9da1;
+}
+
+.heading {
+  width: 100%;
+  background-color: #9d9da1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+  color: #262626;
+}
+
+.heading h1 {
+  font-size: 40px;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+}
+
+.heading a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 28px;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #9d9da1;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #262626;
+}
+
+nav ul li button i {
+  color: #262626;
+}
+
+.admin-panel-heading {
+  width: 100%;
+  background-color: #002d62;
+  text-align: center;
+  color: #fff;
+}
+
+.admin-welcome {
+  padding: 20px 60px;
+  font-weight: 600;
+}
+
+.admin-options ul {
+  margin: 20px 60px;
+}
+
+.admin-options ul li {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.admin-options ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.product_img img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.product_img_update img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+.box1 {
+  margin: 40px 20px;
+}
+
+.edit-existing {
+  margin: 40px 0px;
+}
+
+.mb-3 label {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.form-check {
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card img {
+  border-radius: 20px;
+  width: 100%;
+  height: 40%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.cart-btn {
+  font-size: 28px;
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  background-color: #e0e5e9;
+}
+
+.card .btn-success {
+  background-color: #0295db;
+  border: none;
+  outline: none;
+  position: relative;
+  bottom: 0;
+}
+
+.card .btn-primary {
+  background-color: #9d9da1;
+  border: none;
+  outline: none;
+}
+
+.card .btn-primary:hover {
+  background-color: #7c7c7c;
+}
+
+.card .card-title-price {
+  margin: 20px 0;
+}
+
+.card .card-text {
+  width: 100%;
+  height: 40%;
+}
+
+.previous-orders {
+  margin-left: 30px;
+  font-size: 28px;
+  transition: all 1s ease;
+}
+
+.edit-existing {
+  margin-left: 70px;
+}
+
+.add_order_form_header {
+  display: flex;
+  gap: 60px;
+  border: 2px solid #262626;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+select {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  background: transparent;
+}
